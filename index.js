@@ -4,11 +4,11 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name) {
-  return 'Happy holidays,' + name + '!';
+  return 'Happy holidays, ' + name + '!';
 }
 
 function happyHolidayTo(holiday, name) {
-  return 'Happy, ' + holiday + ' , ' + name + '!';
+  return 'Happy, ' + holiday + ', ' + name + '!';
 }
 
 function holidayCountdown(holiday, dy) {
@@ -21,5 +21,5 @@ var b = happyHolidaysTo("David Kwon");
 console.log(b);
 var c = happyHolidayTo("birthday", "David Kwon");
 console.log(c);
-var d = holidayCountdown("birthday", 15);
+var d = holidayCountdown("birthday", "15");
 console.log(d);
